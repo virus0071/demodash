@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Scroller Media</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!--Button style-->
+    <link rel="stylesheet" href="assets/css/buttons.css">
+
+    <!-- STYLESHEET CSS FILES -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/nivo-lightbox.css">
+    <link rel="stylesheet" href="assets/css/nivo_themes/default/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+    <!-- preloader section -->
+    <div class="preloader">
+        <div class="sk-spinner sk-spinner-rotating-plane"></div>
+    </div>
+
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1 class="wow bounceInDown rotate">Scroller Media</h1>
+                    <h2 class="wow bounce"></h2>
+                    <a href="#login" class="btn btn-default smoothScroll">Start</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span
+                        class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span
+                        class="icon icon-bar"></span> </button>
+                <a href="#" class="navbar-brand">Scroller Media</a></div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#login" class="smoothScroll">Login</a></li>
+                    <li><a href="#cust" class="smoothScroll">Customer</a></li>
+                    <li><a href="#order" class="smoothScroll">Order</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--log in section-->
+    <section id="login">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp"
+                    data-wow-delay="0.9s">
+                    <form action="#" method="post">
+                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Password">
+                        <input type="submit" class="form-control" value="Login">
+                        <input type="submit" class="form-control" value="Register">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!--Customer Info-->
+    <section id="cust">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <img src="assets/images/th.png" id="logo" />
+                        <br>
+                        <br>
+                        <br>
+                        <h5>Home</h5>
+                        <h5>Contacts</h5>
+                        <h5>Deals</h5>
+                        <h5>Calendar</h5>
+                        <h5>Special Offer</h5>
+                        <h5>VIP</h5>
+                        <h5>Reports</h5>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <br>
+                        <br>
+                        
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="dropdown button-filter">
+                            <button class="dropbutton button-pill button-primary">Age</button>
+                            <div class="dropdown-content">
+                                <a href="#">10-20</a>
+                                <a href="#">21-30</a>
+                                <a href="#">31-40</a>
+                                <a href="#">41-50</a>
+                                <a href="#">51-60</a>
+                                <a href="#">60+</a>
+
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown button-filter">
+                            <button class="dropbutton button-pill button-primary">Loyalty</button>
+                            <div class="dropdown-content">
+                                <a href="#">None</a>
+                                <a href="#">Tier 1</a>
+                                <a href="#">Tier 2</a>
+                                <a href="#">Tier 3</a>
+                                <a href="#">Tier 4</a>
+                                <a href="#">Tier 5</a>
+
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown button-filter">
+                            <button class="dropbutton button-pill button-primary">Gender</button>
+                            <div class="dropdown-content">
+                                <a href="#">Both</a>
+                                <a href="#">Female</a>
+                                <a href="#">Male</a>
+
+                            </div>
+                        </div>
+                    
+
+
+                        <div class="filter">
+                            
+
+                        </div>
+                        </div>
+                    </div>
+
+
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Customer Information</h3>
+
+                                </div>
+                                <div class="panel-body">
+                                    <div id="customer-list">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col"><i class="fas fa-user"></i></th>
+                                                    <th scope="col"><i class="fas fa-venus-mars"></i></th>
+                                                    <th scope="col"><i class="far fa-address-book"></i></th>
+                                                    <th scope="col"><i class="fas fa-person-booth"></i></th>
+                                                    <th scope="col"><i class="fas fa-door-open"></i></th>
+                                                    <th scope="col"><i class="far fa-calendar-alt"></i></th>
+                                                    <th scope="col"><i class="far fa-calendar-times"></i></th>
+                                                    <th scope="col"><i class="fas fa-dollar-sign"></i></th>
+                                                    <th scope="col"><i class="fas fa-arrow-up"></i></th>
+                                                    <th scope="col"><i class="fas fa-star"></i></th>
+                                                    <th scope="col"><i class="fas fa-tags"></i></th>
+                                                    <th scope="col"><i class="fas fa-chart-line"></i></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Abby </h6> <h6>Wilson</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>F</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>+1(216)496-4197</h6><h6>cementgardens@gmail.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>5/19/2018</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>11</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>5/30/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>5/29/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$247.36</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$252.64</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square pink"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Non-GMO Newbie</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-grin-hearts"></i></th>
+
+
+
+                                                </tr>
+
+
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Aj</h6> <h6> Mangan</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>M</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>abrahammangan@gmail.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>6/12/2018</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>13</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>9/19/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>9/18/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$232.46</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$267.54</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square pink"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Non-GMO Newbie</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-meh"></i></th>
+
+
+
+                                                </tr>
+
+
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Andrea </h6> <h6>Davis</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>F</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>andreadavis4539@hotmail.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>4/2/2017</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>51</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>4/16/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>4/15/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$1379.70</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$120.30</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square yellow"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Weekday Warrior</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-grin-hearts"></i></th>
+
+
+
+                                                </tr>
+                                                
+
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Andrew</h6> <h6>Fabec</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>M</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>andrew_fabec@yahoo.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>1/2/2017</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>63</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>10/2/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>10/1/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$1534.57</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$965.43</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square orange"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Optimal Performer</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-grin-hearts"></i></th>
+
+
+
+                                                </tr>
+
+
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Angelika </h6> <h6>Martinez-McGhee</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>F</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>angelika.martinez.mcghee@gmail.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>2/9/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>9</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>8/26/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>8/25/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$128.08</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$371.92</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square pink"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Non-GMO Newbie</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-grin-hearts"></i></th>
+
+
+
+                                                </tr>
+
+
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Joe </h6> <h6>Stanoszek</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>M</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>joestanoszek@yahoo.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>3/19/2017</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>247</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>6/25/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>6/24/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$4415.17</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$0</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square green"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Healthy AF</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-grin-hearts"></i></th>
+
+
+
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Ryan </h6> <h6>Rao</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>M</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>rrao@apexfdg.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>3/8/2017</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>361</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>6/25/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>6/24/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$5357.35</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$0</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square green"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Healthy AF</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-grin-hearts"></i></th>
+
+
+
+                                                </tr>
+
+
+                                                <tr>
+                                                    <th scope="col">
+                                                        <h6>Amanda </h6> <h6>Borlin</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>F</h6>
+                                                    </th>
+                                                    <th scope="col">
+                                                        <h6>ab021010@gmail.com</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>4/11/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>2</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>4/11/2019</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>4/10/2020</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$45.50</h6>
+                                                    </th>
+
+                                                    <th scope="col">
+                                                        <h6>$54.50</h6>
+                                                    </th>
+                                                    
+                                                    <th scope="col"><i class="fas fa-square red"></i></th>
+                                                    <th scope="col"><button
+                                                            class="button button-royal button-pill button-tiny">Welcome</button>
+                                                        </th>
+                                                    <th scope="col"><i class="far fa-grin-beam"></i></th>
+
+
+
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!--Customer order-->
+    <section id="order">
+
+        <h2>Make an Order</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <br>
+                <br>
+                <br>
+                <br>
+                <label class="redStar">Name</label>
+
+                <input type="text" value=" " />
+
+                <br>
+                <br>
+                <br>
+
+                <label class="redStar">Zip Code</label>
+
+                <input type="number" pattern="\d*" />
+
+                <br>
+                <br>
+                <br>
+                <div class="dropdown">
+                    <button class="dropbtn">Where</button>
+                    <div class="dropdown-content">
+                        <a href="#">For here</a>
+                        <a href="#">To go</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-8 col-sm-8">
+                <br>
+                <br>
+                <h3>What would you like to order?</h3>
+                <hr>
+
+                <h4>Appetizer</h4>
+                <button class="button button-royal button-rounded button-large">Traditional Wings</button>
+                <button class="button button-royal button-rounded button-large">Boneless Thursday</button>
+                <button class="button button-royal button-rounded button-large">Traditional & Boneless Combo</button>
+
+                <h4>Entrée</h4>
+                <button class="button button-highlight button-rounded button-large">Food 1</button>
+                <button class="button button-highlight button-rounded button-large">Food 2</button>
+                <button class="button button-highlight button-rounded button-large">Food 3</button>
+                <button class="button button-highlight button-rounded button-large">Food 4</button>
+                <button class="button button-highlight button-rounded button-large">Food 5</button>
+                <button class="button button-highlight button-rounded button-large">Food 6</button>
+                <h4>Drink</h4>
+                <button class="button button-primary button-rounded button-large">Johnnie Walker</button>
+                <button class="button button-primary button-rounded button-large">Don Julio</button>
+                <button class="button button-primary button-rounded button-large">Ciroc</button>
+                <button class="button button-primary button-rounded button-large">Ketel One</button>
+                <button class="button button-primary button-rounded button-large">Bulliet</button>
+                <button class="button button-primary button-rounded button-large">Captain Morgan</button>
+                <h4>Desert</h4>
+                <button class="button button-action button-rounded button-large">Ice-cream</button>
+                <button class="button button-action button-rounded button-large">Cheesecake bites</button>
+                <button class="button button-action button-rounded button-large">Chocolate Fudge Cake</button>
+                <button class="button button-action button-rounded button-large">Dessert Nacho</button>
+                <button class="button button-action button-rounded button-large">Cinnamon Squares</button>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 copyright">
+                    <p>Copyright © 2019 Scroller Media</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT JS FILES -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/nivo-lightbox.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/jquery.parallax.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ddf5fb68db.js"></script>
+
+</body>
+
+</html>
